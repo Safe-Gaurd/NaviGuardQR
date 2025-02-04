@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:qr_code_app/ask.dart';
 import 'package:qr_code_app/splash.dart';
 
 void main() {
@@ -14,8 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: AskSreen(),
+      home: CustomSplashScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
-
