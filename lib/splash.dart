@@ -34,7 +34,7 @@ class _CustomSplashScreenState extends State<CustomSplashScreen> {
             // gradient: LinearGradient(
             //   colors: [
             //     Colors.blue.shade900,
-            //     Colors.blue.shade600,
+            //     Colors.blue.shade600,s
             //     Colors.blue.shade400
             //   ],
             //   begin: Alignment.topCenter,
