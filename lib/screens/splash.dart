@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:qr_code_app/ask.dart';
+import 'package:qr_code_app/screens/download_preference.dart';
 
 class CustomSplashScreen extends StatefulWidget {
   const CustomSplashScreen({super.key});
@@ -17,11 +17,11 @@ class _CustomSplashScreenState extends State<CustomSplashScreen> {
 
     Future.delayed(const Duration(seconds: 3), () {
       if (mounted) {
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(
-            builder: (context) => AskScreen(),
-          ),
-        );
+        // Navigator.of(context).pushReplacement(
+        //   MaterialPageRoute(
+        //     builder: (context) => AskScreen(),
+        //   ),
+        // );
       }
     });
   }
